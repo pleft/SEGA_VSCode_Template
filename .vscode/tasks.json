@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "cmd",
+    "isShellCommand": true,
+    "args": ["/C"],
+    "showOutput": "always",
+    "tasks": [
+        {
+            "isBuildCommand": true,
+            "suppressTaskName": true,
+            "echoCommand": true,
+            "taskName": "make",
+            "args": [
+                "${env.GDK}\\bin\\make", "-f", "${env.GDK}\\makefile.gen"
+            ]
+
+        },
+        {
+            "suppressTaskName": true,
+            "echoCommand": true,
+            "taskName": "clean",
+            "args": [
+                "${env.GDK}\\bin\\make", "clean", "-f", "${env.GDK}\\makefile.gen"
+            ]
+
+        }
+    ]
+}
