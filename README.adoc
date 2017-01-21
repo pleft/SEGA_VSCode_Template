@@ -15,7 +15,7 @@ This small project will help to setup a working environment (tested in Windows) 
 * Create an environment variable `GDK` pointing to the SGDK directory (e.g. "C:/dev/sgdk").
 * Install Visual Studio Code.
 * Install the following extensions in vsCode: `C/C++ for Visual Studio Code`
-* Clone this github repo: `git clone https://github.com/pleft/sega_tutorial_1.git`.
+* Clone this github repo: `git clone https://github.com/pleft/SEGA_VSCode_Template.git`.
 
 === Usage
 
