@@ -19,7 +19,7 @@ This small project will help to setup a working environment (tested in Windows) 
 
 === Usage
 
-* Open `vsCode` and `File->Open Folder...` and choose the folder of the checked out repository.
+* Open `VSCode` and `File->Open Folder...` and choose the folder of the checked out repository.
 * Folder `.vscode` contains two files: `c_cpp_properties.json` and `tasks.json`
     * In `c_cpp_properties.json` it is added the include folder of the `SGDK`: `"includePath": ["%GDK%/inc"]`
     * In `tasks.json` there are 2 tasks to help build and clean the project, `make` and `clean`. 
