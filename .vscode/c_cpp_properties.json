@@ -1,24 +1,8 @@
 {
     "configurations": [
         {
-            "name": "Mac",
-            "includePath": ["${env.GDK}/inc"],
-            "browse" : {
-                "limitSymbolsToIncludedHeaders" : true,
-                "databaseFilename" : ""
-            }
-        },
-        {
-            "name": "Linux",
-            "includePath": ["${env.GDK}/inc"],
-            "browse" : {
-                "limitSymbolsToIncludedHeaders" : true,
-                "databaseFilename" : ""
-            }
-        },
-        {
             "name": "Win32",
-            "includePath": ["${env.GDK}/inc"],
+            "includePath": ["%GDK%/inc"],
             "browse" : {
                 "limitSymbolsToIncludedHeaders" : true,
                 "databaseFilename" : ""
