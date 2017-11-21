@@ -13,7 +13,7 @@
             "echoCommand": true,
             "taskName": "make",
             "args": [
-                "${env.GDK}\\bin\\make", "-f", "${env.GDK}\\makefile.gen"
+                "${env:GDK}\\bin\\make", "-f", "${env:GDK}\\makefile.gen"
             ]
 
         },
@@ -22,7 +22,7 @@
             "echoCommand": true,
             "taskName": "clean",
             "args": [
-                "${env.GDK}\\bin\\make", "clean", "-f", "${env.GDK}\\makefile.gen"
+                "${env:GDK}\\bin\\make", "clean", "-f", "${env:GDK}\\makefile.gen"
             ]
 
         }
